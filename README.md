@@ -3,10 +3,9 @@
 
 Complete an analysis of an election
 #1. The total number of votes cast
-#2. A complete list of candidates who received votes
-#3. The percentage of votes each candidate won
-#4. The total number of votes each candidate won
-#5. The winner of the election based on popular vote.
+#2. A summary of votes by county plus identify county winner.
+#3. A summary of candidates and their vote shares.
+#$. The winner of the election based on popular vote.
 
 ##################################
 ### Notes of steps used in this Python analysis.
@@ -21,10 +20,12 @@ file_to_save = "election_analysis.txt"
   
 # Open File
 
-# Now loop thru each row to get a data set of unique candidates their vote counts.   
-      
-# Now open a file for writing. some loops, calculations and write them to file. Practicing the With Open
-
-# Print the final vote count to the terminal and to the text file.
-# Print and write each Candidate's summary
-# Print and write winners summary
+# Now loop thru each row to get a data set of unique candidates their vote counts unique plus counties and their votes counts.   
+  #get county data. process counts and percentages. Compare to winner. Set to winner if winner.
+  #get candidate data. process counts and percentages. Compare to winner. Set to winner if winner.
+# Now open a file for writing. some loops, calculations and write them to terminal and file.
+  #get total votes
+  #get county summary and county winner
+  #get candidate summary candidate winner
+  #get winning candidate summary stats
+# Dats all folks.
